@@ -1,0 +1,404 @@
+body {
+  margin: 0;
+  width: 100%;
+  --color-azul: #2196f3;
+  --color-negro: #212121;
+  font-family: "roboto", "arial", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+a:hover {
+  color: var(--color-azul);
+  cursor: pointer;
+}
+
+/* Aqui comienza el header*/
+
+.top-page {
+  background-color: #ffffff;
+  width: 100%;
+  height: 80px;
+  border-bottom: 1px solid #ececec;
+}
+
+.top-nav {
+  display: inline-block;
+  margin-top: 24px;
+}
+
+.top-nav ul {
+  margin: 0;
+  padding: 0;
+}
+
+.top-page-button {
+  display: inline-block;
+}
+
+.logo {
+  width: 145px;
+  height: 31px;
+  font-family: "raleway", sans-serif;
+  font-size: 26px;
+  color: var(--color-azul);
+  margin: 24px 46px 25px 215px;
+}
+
+.top-button {
+  font-weight: 500;
+  font-size: 14px;
+  color: var(--color-negro);
+}
+
+.top-button:focus {
+  color: var(--color-azul);
+}
+
+.studio {
+  width: 42px;
+  height: 16px;
+  margin: 24px 30px;
+}
+
+.portfolio {
+  width: 58px;
+  height: 16px;
+  margin: 24px 30px;
+}
+
+.contacts {
+  width: 59px;
+  height: 16px;
+  margin: 24px 314px 24px 30px;
+}
+
+.top-contacts {
+  display: inline-block;
+}
+
+.top-contact {
+  font-weight: 500;
+  font-size: 14px;
+  color: #757575;
+}
+
+.mail {
+  margin: 24px 30px 24px 7px;
+}
+
+.phone {
+  margin: 24px 30px 24px 7px;
+}
+
+/* Aqui termina el header */
+
+/* Aqui comienza los botones de filtrado */
+
+button {
+  font-weight: 700;
+  font-size: 14px;
+  color: var(--color-negro);
+  background-color: #f5f4fa;
+  border: 0;
+  border-radius: 4px;
+}
+
+button:hover {
+  background-color: var(--color-azul);
+  color: #ffffff;
+  font-weight: 700;
+  font-size: 14px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.filters-buttons {
+  width: 100%;
+  display: inline-block;
+  text-align: center;
+  margin-top: 106px;
+}
+
+.filter-button {
+  display: inline-block;
+}
+
+.all {
+  text-align: center;
+  width: 73px;
+  height: 38px;
+  padding: 6px 26px;
+}
+
+.web {
+  text-align: center;
+  width: 128px;
+  height: 38px;
+  padding: 6px 26px;
+}
+
+.apps {
+  text-align: center;
+  width: 148px;
+  height: 38px;
+  padding: 6px 53px;
+}
+
+.design {
+  text-align: center;
+  width: 103px;
+  height: 38px;
+  padding: 6px 26px;
+}
+
+.marketing {
+  text-align: center;
+  width: 130px;
+  height: 38px;
+  padding: 6px 26px;
+}
+
+/* Aqui termina los botones de filtrado */
+
+/* Aqui comienza las imagenes (portfolio) */
+
+.works-sections {
+  width: 100%;
+  margin-left: 220px;
+  margin-bottom: 82px;
+}
+
+.works-sections ul {
+  margin: 0;
+  padding: 0;
+}
+
+.work-section {
+  width: 370px;
+  height: 404px;
+  display: inline-block;
+  border: 1px solid #eeeeee;
+  margin: 15px;
+}
+
+.title-images {
+  font-size: 18px;
+  font-weight: 900;
+  color: var(--color-negro);
+  margin: 20px 0 4px 24px;
+}
+
+.filter-description {
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-negro);
+  padding: 0 0 0 20px;
+}
+
+/* Aqui termina las imagenes (portfolio) */
+
+/* Aqui comienza seccion heroes (studio-index) */
+
+.top-banner {
+  width: 100%;
+  height: 600px;
+  background-color: var(--color-negro);
+  text-align: center;
+}
+
+.slogan {
+  margin: 0;
+  padding: 200px 0 30px;
+  font-weight: 700;
+  font-size: 44px;
+  color: #ffffff;
+}
+
+.request {
+  width: 261px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: var(--color-azul);
+  border: 0;
+  border-radius: 4px;
+}
+
+.request:hover {
+  width: 261px;
+  height: 50px;
+  font-weight: 700;
+  font-size: 16px;
+  color: #ffffff;
+  background-color: var(--color-azul);
+  border: 0;
+  border-radius: 4px;
+}
+
+/* Aqui termina seccion heroes (studio-index) */
+
+/* Aqui comienza valores corporativos (studio-index) */
+
+.company-values {
+  width: 100%;
+  margin-left: 215px;
+  margin-top: 95px;
+}
+
+.company-values ul {
+  margin: 0;
+  padding: 0;
+}
+
+.company-value {
+  margin: 0;
+  width: 270px;
+  text-align: left;
+  display: inline-block;
+}
+
+.title-value {
+  margin: 0 0 10px 0;
+  font-size: 14;
+  font-weight: 700;
+  color: var(--color-negro);
+}
+
+.text-values {
+  font-size: 14;
+  font-weight: 400;
+  line-height: 1.5em;
+  color: var(--color-negro);
+}
+
+/* Aqui termina valores corporativos (studio-index) */
+
+/* Aqui comienza what we do (studio-index) */
+
+.wwd ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.wwd-title {
+  margin: 94px 0 55px 0;
+  padding: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.wwd-group {
+  text-align: center;
+}
+
+.wwd-images {
+  margin: 0 15px 95px;
+  display: inline-block;
+}
+
+/* Aqui termina what we do (studio-index) */
+
+/* Aqui comienza Our team (studio-index) */
+
+.ot {
+  background-color: #f5f4fa;
+  margin: 0;
+  padding: 0;
+}
+
+.ot ul {
+  text-align: center;
+  margin: 0;
+  padding 0;
+}
+
+.ot-section-title {
+  margin: 0 0 0 0;
+  padding: 95px;
+  font-size: 36px;
+  font-weight: 700;
+  text-align: center;
+}
+
+.ot-team {
+  background-color: #ffffff;
+  width: 270px;
+  height: 368px;
+  display: inline-block;
+  margin: 0 19px 95px;
+  box-shadow: 0px 2px 1px 0 rgb(187, 187, 187);
+  border-radius: 0 0 4px 4px;
+}
+
+ot-team-group {
+  margin: 0;
+  padding: 0;
+}
+
+.ot-title {
+  text-align: center;
+  font-size: 16px;
+  font-weight: 500;
+  color: var(--color-negro);
+  margin-top: 30px;
+  margin-bottom: 10px;
+}
+
+.charge {
+  margin: 0%;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--color-negro);
+  text-align: center;
+}
+
+/* Aqui termina Our team (studio-index) */
+
+/* Aqui comienza el footer */
+
+footer {
+  width: 100%;
+  height: 252px;
+  background-color: var(--color-negro);
+}
+
+.logo-footer {
+  width: 145px;
+  height: 31px;
+  display: inline-block;
+  font-family: "raleway", sans-serif;
+  font-size: 26px;
+  color: var(--color-azul);
+  margin: 60px 0 14px 215px;
+}
+
+address {
+  margin-left: 215px;
+  color: #ffffff;
+}
+
+address ul {
+  margin: 0;
+  padding: 0;
+}
+
+.end-infos {
+  list-style: none;
+}
+
+.end-info {
+  list-style: none;
+  font-size: 14px;
+  font-style: normal;
+  color: #ffffff;
+  line-height: 1.5em;
+  margin: 0;
+  padding: 0;
+}
